@@ -16,8 +16,9 @@ Please find below a brief overview of the contents of this repository:
 1. `HW1/`: This directory contains code and asnwers for Assignment 1, which focuses on confounding variables, sampling strategies, calculating data statistics, and different methods of data visualization.
 2. `HW2/`: This directory contains code and answers for Assignment 2, which focused on conditional probability, binomial probability, geometric random variables, Poisson random variables, and using ggplot2 for data visualization.
 3. `HW3/`: This directory contains code and answers for Assignment 3, which focuses on Hypothesis testing, Confidence Intervals, error types I and II, calculating power, and calculating confidence intervals for the Galton dataset.
-4. `HW4/`: This directory contains code and answers for Assignment 4, which focuses on ANOVA, t-distribution, comparing two means, Multiple Comparisons, and Bootstrapping (Support Vector Machine).
-5. `HW5/`: This directory contains code for Assignment 5, which focuses on feature selection methods, including LDA (Linear Discriminant Analysis), PCA (Principal Component Analysis), Sequential Forward Selection (SFS), and Recursive Feature Elimination(RFE). The assignment includes code for implementing SFS and RFE on the Wine dataset. Additionally, PCA has been implemented for the Faces dataset. In Q7, LDA has been implemented for the Fashion-MNIST dataset.
+4. `HW4/`: This directory contains code and answers for Assignment 4, which focuses on ANOVA, t-distribution, comparing two means, Multiple Comparisons, and Bootstrapping.
+5. `HW5/`: This directory contains code and answers for Assignment 5, which focuses on  Inference for Proportion, Independence Tests(chi-square test), and Inference for Proportion.
+6. `HW6/`: This directory contains code and answers for Assignment 6, which focuses on regression and goodness of fit.
 7. `Final Project/`: Here, you can find code related to the projects completed as part of the course requirements.
 
 ## Final Project
