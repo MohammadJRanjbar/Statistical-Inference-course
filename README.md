@@ -22,27 +22,52 @@ Please find below a brief overview of the contents of this repository:
 7. `Final Project/`: Here, you can find code related to the projects completed as part of the course requirements.
 
 ## Final Project
-This particular project focuses on the classification of Dastgah in Persian music. Dastgah refers to the modal system in Persian music, which organizes melodic types (gūšas) and arranges them around a dominant mode (māya). Each dastgāh derives its name from this dominant mode, which is played during the introductory parts. Our objective in this project is to classify music based on their respective dastgahs. To accomplish this, we follow these key steps:
-1. **Data Collection**: We have collected a comprehensive dataset, accessible through this [link](https://docs.google.com/spreadsheets/d/1QmJ2MomwjbD2N-9TZks4IhPzGdarQnYb9HgU-G0T3Cc/edit#gid=0).
+In this project, we aim to study and analyze Airbnb datasets to gain valuable insights into the preferences of both guests and property owners. Airbnb is a platform that facilitates the rental of properties by homeowners to people in need of temporary accommodation. The platform operates on a commission-based model for each booking and does not own any of the listed properties.
 
-2. **Data Preprocessing, Analysis, and Visualization**: To build a robust model, we need to clear our dataset by deleting incorrect files. Also, we need to find features that have the most correlation with our labels and help us in the classification and clustering tasks.
+## Project Objectives
 
-3. **Feature Extraction**: Based on the information acquired in the first part, we need to extract features and prepare our dataset for the next part. We use two sets of features for this project, the first set is as follows:
+The primary objectives of this project are to answer the following questions:
 
-   - Zero Crossing Rate: The rate at which the signal changes from positive to negative or back.
-   - STFT (Short Time Fourier Transforms): The STFT represents a signal in the time-frequency domain by computing discrete Fourier transforms (DFT) over short overlapping windows.
-   - Harmonics and Perceptual: Harmonics are characteristics that human ears can't distinguish (representing the sound color). Perceptual understanding of shock waves represents the sound rhythm and emotion.
-   - Tempo BMP (beats per minute): Dynamic programming beat tracker.
-   - Spectral Centroid: Indicates where the "centre of mass" for a sound is located and is calculated as the weighted mean of the frequencies present in the sound.
-   - Spectral Rolloff: It is a measure of the shape of the signal. It represents the frequency below which a specified percentage of the total spectral energy, e.g., 85%, lies.
-   - Spectral Bandwidth: Spectral Bandwidth is the spectral range of interest around the centroid, that is, the variance from the spectral centroid.
-   - Mel-Frequency Cepstral Coefficients: The Mel frequency cepstral coefficients (MFCCs) of a signal are a small set of features (usually about 10–20) which concisely describe the overall shape of a spectral envelope. It models the characteristics of the human voice.
-   - Chroma Frequencies: Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.
+1. **Factors Influencing House Selection**
+   - What features are most significant for guests when choosing their preferred accommodation?
+   - Does the neighborhood play a crucial role in the decision-making process?
+   - Are certain neighborhoods more affordable than others?
+   - Is proximity to tourist attractions a determining factor for the popularity of certain neighborhoods?
+   - Do houses located in specific neighborhoods receive more visitors, and which neighborhoods are more popular overall?
 
-4. **Classification**: In this part, based on the features extracted from the model and their correlation with our classes, we need to design the best model that does the task of classifying. In this project, we try models such as Multilayer Perceptron, SVM, etc.
+2. **Price Acceptability and Impact**
+   - What price range is more acceptable to potential guests?
+   - Do guests prioritize cheaper prices, or does the rating of the property carry more weight?
+   - Do service fees significantly impact guests' decisions, and can they act as deal breakers?
 
-5. **Clustering**: Clustering music dastgah is a task of grouping music based on the similarities in their audio characteristics.
+3. **Effect of House Ratings**
+   - How does the rating of a property influence guests' decisions?
+   - Is there a correlation between higher prices and better ratings?
+   - Does the number of previous visitors and their ratings impact the popularity of a property?
 
+4. **Preferred House Characteristics**
+   - What type of houses do guests prefer to stay in?
+   - Does the construction year of the property matter to guests?
+   - Which room types are more popular among renters? Do guests prefer more expensive houses for increased privacy?
+   - What property policies tend to drive guests away?
+
+5. **Impact of Instant Booking, Availability 365, and Cancellation Policies**
+   - Does the availability of instant booking influence guests' decisions?
+   - Is the "availability 365" metric significant for guests when choosing a property?
+   - Are guests comfortable with strict cancellation policies?
+
+6. **Property Owner Preferences**
+   - What kind of services do property owners prefer to provide?
+   - Do property owners tend to enforce strict policies?
+   - How does property owner identification verification affect visitor engagement?
+   - Do property owners in economically disadvantaged neighborhoods tend to rent only part of their homes?
+   - What is the preferred price range for property owners in each area?
+
+## Recommendations
+
+Based on the insights gained from the analysis of Airbnb datasets, we can leverage this information in combination with user data to provide personalized house recommendations to guests. By understanding the factors that influence guests' decisions and property owners' preferences, we aim to enhance the overall experience and satisfaction of both parties on the Airbnb platform.
+
+---
 
 ## Disclaimer
 
