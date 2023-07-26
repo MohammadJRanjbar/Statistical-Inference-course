@@ -63,7 +63,7 @@ The primary objectives of this project are to answer the following questions:
    - Do property owners in economically disadvantaged neighborhoods tend to rent only part of their homes?
    - What is the preferred price range for property owners in each area?
 
-## Recommendations
+7. **Recommendations**
 
 Based on the insights gained from the analysis of Airbnb datasets, we can leverage this information in combination with user data to provide personalized house recommendations to guests. By understanding the factors that influence guests' decisions and property owners' preferences, we aim to enhance the overall experience and satisfaction of both parties on the Airbnb platform.
 
